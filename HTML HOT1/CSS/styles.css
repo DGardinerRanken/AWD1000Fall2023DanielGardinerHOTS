@@ -1,0 +1,13 @@
+/*This is the stylesheet for the whole html*/
+
+body {
+    background-color: lightgoldenrodyellow;
+    color: darkslategrey;
+}
+
+#wrapper {
+    margin: auto;
+    width: 700px; 
+}
+
+ 
