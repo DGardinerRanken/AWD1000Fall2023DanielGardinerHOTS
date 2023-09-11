@@ -1,0 +1,120 @@
+html{
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+header{
+    padding-bottom: 4.5em;
+    background-color: lightskyblue;
+}
+
+main{
+    background-color: lightskyblue;
+}
+
+main ul li{
+    list-style: '🍕';
+    font-size: 200%;
+    padding: 1em 0 1em 0;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 2rem 1em 0 1em;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#center{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#pep{
+    background-color: lightblue;
+}
+
+#mar{
+    background-color: lightseagreen;
+}
+
+#pes{
+    background-color: cyan;
+}
+
+#mea{
+    background-color: aquamarine;
+}
+
+#gar{
+    background-color: beige;
+}
+
+.title{
+    text-align: right;
+    color: darkblue;
+    margin-right: 300px;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+}
+
+.menubutton{
+    float: right;
+}
+
+/*Nav menu*/
+
+#navmenu ul{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#navmenu ul li{
+    float: left;
+   
+}
+
+#navmenu ul li a{
+    display: block;
+    text-align: center;
+    width: 250px;
+    padding: 0;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 250%;
+}
+
+#navmenu ul li a:hover,
+#navmenu ul li a:focus{
+    color: steelblue;
+}
+
+#navmenu ul li a.current{
+    color: darkslategray;
+}
+
+/*footer*/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 70%;
+}
