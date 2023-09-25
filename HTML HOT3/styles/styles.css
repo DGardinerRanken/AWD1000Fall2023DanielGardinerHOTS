@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+
+/*navbar*/
+
+.navbar{   
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.25rem .75rem;
+}
+
+.navbar a{
+    color: black;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+    background-color: lightcoral;
+}
+
+header h1{
+    font-size: 3rem
+}
+
+header nav{
+    
+    display: flex;
+    flex-basis: 100%;
+    justify-content: end;
+
+}
+
+header nav a{
+    width: 10%;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+/*button*/
+
+button{
+    display: flex;
+    background-color: maroon;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+
+
+/*flexbox stuff*/
+
+.flexbox-container{
+    display: flex;
+    background-color: lightcoral;
+}
+
+.flexbox-item{
+    width: 50%;
+}
+
+.flexbox-item1{
+    order: 1;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.flexbox-item2{
+    order: 2;
+    justify-content: end;
+    padding-left: 75rem;
+}
+
+
+.flexbox-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0 0 7rem;
+}
+
+.flexbox-container2 img{
+    border-radius: 50%;
+    width: 40%;
+    
+}
+
+.flexbox-container3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    justify-content: center;
+}
+
+.flexbox-container3 img{
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem 3rem;
+}
+
+.flexbox-container3 p{
+    padding-bottom: 5rem;
+}
+
+/*section1*/
+
+section h2{
+    font-size: 2rem;
+    padding: 0 .5rem;    
+}
+
+section h4{
+    font-size: 1rem;
+    padding: 0 .5rem;
+}
+
+section h1{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    background-color: lightcoral;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding:1rem;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 600px){
+    .flexbox-container2{
+        flex-direction: column;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    #flexbox-container3{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #flexbox-container4{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #flexbox-item7{
+        order: 1;
+    }
+    #flexbox-item8{
+        order: 2;
+    }
+}
+@media only screen and (max-width: 425px){
+    #navbar{
+        flex-direction: column;
+    }
+
+    #flexbox-container2{
+        flex-direction: column;
+    }
+    
+    #flexbox-container3{
+        flex-direction: column;
+    }
+    #flexbox-container4{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
