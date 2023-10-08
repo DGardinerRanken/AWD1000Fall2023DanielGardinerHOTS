@@ -1,0 +1,34 @@
+.jumbotron{
+    background-image: url(../images/pexels-moose-photos-1037995.jpg);
+    background-size: cover;
+    text-shadow: 2px;
+}
+
+.jumbotron h1{
+    text-align: center;
+}
+
+.jumbotron p{
+    margin: 1rem 2rem;
+}
+
+.work {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}  
+
+
+.card{
+    display: inline-block;
+    margin: 2rem;
+}
+
+.card p{
+    text-align: center;
+}
+
+section{
+    justify-content: center;
+}
