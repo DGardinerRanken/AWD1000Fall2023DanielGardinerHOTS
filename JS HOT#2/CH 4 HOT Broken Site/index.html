@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>JavaScript HOT #2</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>JS HOT#2 Ch. 4 - 5</h1>
+    </header>
+
+    <article>
+      <h2>Steam Game Sale</h2>
+      <form id = "form1">
+        <input type="checkbox" id="item1" value="19.99" />
+        <label for="item1">Counter Strike ($19.99)</label>
+
+        <input type="checkbox" id="item2" value="29.99" />
+        <label for="item2">Dark Souls III ($29.99)</label>
+
+        <input type="checkbox" id="item3" value="13.49" />
+        <label for="item3">Enter The Gungeon ($13.49)</label>
+
+        <input type="checkbox" id="item4" value="04.99" />
+        <label for="item4">Hover Junkers ($4.99)</label>
+
+        <input type="checkbox" id="item5" value="08.99" />
+        <label for="item5">Good Robot ($8.99)</label>
+      
+        <input type="button" value="Calculate" id="sButton" onclick="calcTotal();"/>
+        <input type="button" value="Clear" id="cButton" onclick="clear();"/>
+      </form>
+      <table id = "table1">
+        <colgroup>
+          <col class="label" />
+          <col class="amount" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>Item total</td>
+            <td id = "itemTotal">0.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td id = "taxTotal">0.00</td>
+          </tr>
+          <tr>
+            <td>Total with tax</td>
+            <td id = "totalWithTax">$0.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <footer>  
+        <p id="date"></p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
