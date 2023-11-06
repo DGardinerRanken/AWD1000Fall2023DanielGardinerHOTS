@@ -1,9 +1,11 @@
 "use strict"
 
-function calcTotal() {
   let itemTotal = 0;
   let tax = 0;
   let totalWithTax = 0;
+
+function calcTotal() {
+  
 
   let items = document.getElementsByTagName("input");
   let cells = document.getElementsByTagName("td");
@@ -36,7 +38,9 @@ function calcTotal() {
 //5. clearing the table and check boxes.
 
 function clear(){
-  
+  itemTotal = '0.00'
+  tax = '0.00'
+  totalWithTax = '$0.00'
 };
 
 
